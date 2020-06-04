@@ -3,9 +3,12 @@
 <head> 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>trying!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="main.js"></script>
+    
 </head>
 <body>
     <div class="bg-gray-800 flex flex-col h-screen">
@@ -21,24 +24,26 @@
                     <li class="">
                             <button class="bg-white hover:bg-gray-200 hover:text-black pt-2 pb-2 text-black m-3 italic 
                             font-sans border-b-4 border-gray-200 hover:border-gray-400 px-4 rounded text-xs shadow-md">
-                                    Audits
+                                    Press me!
                             </button>
                     </li>
                     <li class="">
                             <button class="bg-white hover:bg-gray-200 hover:text-black pt-2 pb-2 text-black m-3 italic 
                             font-sans border-b-4 border-gray-200 hover:border-gray-400 px-4 rounded text-xs shadow-md">
-                                    User
+                                    I am a button
                             </button>
                     </li>
                 </ul>
             </div> 
         </div>
-        <div class="h-full flex flex-row mx-20">
-            <div class="bg-gray-100  flex-1 mx-6 mb-6 h-fill border-b-4 border-gray-400 rounded shadow-2xl">
-                
-            </div>
-            <div class="bg-gray-100 flex-1 mx-6 mb-6 h-fill border-b-4 border-gray-400 rounded shadow-2xl">
-                    
+        <div class="h-full flex mx-0 bg-gray-800">
+            <div class="bg-white flex-1 mx-0  mb-6 h-fill border-b-4 border-gray-400 shadow-2xl relative">
+                <div class="bg-white flex-1 h-fill">
+                    <div id="myDiv"></div>
+                </div>
+                <div class="justify-center absolute bottom-0 inset-x-0 mb-2">
+                    <p class="text-center text-gray-600 text-sm">Oliver</p>
+                </div>
             </div>
         </div>
     </div>
