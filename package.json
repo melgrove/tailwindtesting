@@ -1,0 +1,19 @@
+{
+  "name": "anothertry",
+  "version": "1.0.0",
+  "description": "trying",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js -e *",
+    "build:css": "tailwind build tailwind/tailwind.css -o style.css"  
+  },
+  "author": "Oliver",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}
